@@ -19,31 +19,19 @@ a {
     color: #4255A4;
 }
 
-/*-------------------- HEADER --------------------*/
-.img-header {
-    position: absolute;
-
-    width: 100%;
-    height: 80vh;
-}
-
-.img-header img {
-    width: 100%;
-    object-fit: cover;
-}
-
-header {
-    width: 100%;
-    position: relative;
-}
-
-.container-header {
-    width: 100%;
-    height: 40vmax;
+.container {
     max-width: 1000px;
     margin: 0 auto;
+}
 
-    display: grid;
+/*-------------------- HEADER --------------------*/
+.header {
+    width: 100%;
+    height: 40vmax;
+
+    background-image: url("../img/background/back_main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .menu {
@@ -61,18 +49,13 @@ header {
     align-items: center;
 }
 
-.nav-link {
+.nav-link, .button-header {
     margin: 0 15px;
 
     color: white;
 }
 
-.button-header {
-    display: flex;
-    margin-left: 30px;
-}
-
-.button-header button, .welcome-text .join {
+.button-header, .welcome-text .button-join {
     border: none;
     border-radius: 5px;
 
@@ -84,6 +67,8 @@ header {
 .nav-menu .sign-in {
     background-color: #FF9F67;
     font-weight: bold;
+
+    margin-left: 30px;
 }
 
 .nav-menu .reg {
@@ -96,19 +81,21 @@ header {
 .welcome-text {
     max-width: 37vw;
     color: white;
+
+    margin-top: 10%;
 }
 
-.welcome-text h1 {
+.welcome-text .title {
     color: #FFFF;
     font-size: 6vh;
 }
 
-.welcome-text p {
+.text-header {
     max-width: 38vw;
     font-size: 18px;
 }
 
-.welcome-text .join {
+.welcome-text .button-join {
     color: white;
     background-color: #FF9F67;
 
