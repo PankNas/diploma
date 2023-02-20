@@ -104,20 +104,10 @@ a {
 }
 /*-------------------- END HEADER --------------------*/
 
-.main {
-    position: relative;
-}
-
 /*-------------------- ADVANTAGES --------------------*/
-
-.container-advantages {
-    width: 100%;
-    margin-bottom: 100px;
-}
-
 .advantages {
-    max-width: 1000px;
-    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: -50px;
 
     display: flex;
     justify-content: space-between;
@@ -143,23 +133,13 @@ a {
     display: inline-block;
 }
 
-.feature-icon {
-    position: relative;
-}
-
-.feature-icon img {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-
 .feature-caption {
-    margin-left: 75px;
+    margin-left: 20px;
 
     color: #4255A4;
 }
 
-.feature-caption h2 {
+.header-advantage {
     font-size: 20px;
     margin-top: 0;
 }
